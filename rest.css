@@ -1,84 +1,96 @@
 body{
     background-color:black;
 }
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Roboto',sans-serif;
 }
+
+
 .container{
     position: relative;
-    width: 90%;
     height: 100vh;
-    /* 1 vh=1% */
+  }
 
+  @media(max-width:1500px){
 
-}
-
-nav{display: flex;
-    width: 85%;
-    margin-left: 90px;
-    align-items: center;
-    justify-content: space-between;
-
-}
+    nav{display: flex;
+        width: 750px;
+        margin-left: 400px;
+        align-items: center;
+        justify-content: space-between;
+        }
+    }
 nav .logo{
     width: 40px;
     margin-top:5px;
+    margin-left: -300px;
 }
 nav ul li {
     display: inline-block;
     margin: 10px 20px;
-
-}
+    }
 nav ul li a{
     text-decoration: none;
     color:white;
     font-weight: bold;
-    
-}
+    }
 .rr{
     width: 400px;
     height:300px;
     margin-top: 150px;
     margin-left: 100px;
     border-radius: 200px;
-  
-    
-}
+  }
+
+
 nav ul li a:hover{
     color:goldenrod;
 }
-
+@media(max-width:1500px){
 .container p{
     margin-left:800px;
     margin-top:-10px;
     color:white;
-    
+    width: 100%;
+    }
 }
-
+@media(max-width:1500px){
 .container h1{
+    width: 100%;
     margin-left:800px;
     margin-top:-300px;
     color: orange;
     font-size: 50px;
 }
-
-
+}
+@media(max-width:1500px){
 #pp{
     color: white;
     margin-top: -670px;
     margin-left: 150px;
 }
+}
 #pp span{
     color: orange;
 }
+@media(max-width:1500px){
 label{
+    width: 100%;
     margin-top: 400px;
     margin-left: 800px;
     
-
 }
+}
+@media(max-width:1500px){
+    input{
+        
+        margin-top: 9px;
+        margin-left: 800px;
+     }
+    }
 button{
     margin-top: 10px;
     margin-left: 800px;
@@ -86,10 +98,7 @@ button{
     padding: 5px;
     background-color: orange;
     color: black;
-
 }
-
 #gg{
     color: white;
-    
-}
+    }
